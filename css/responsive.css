@@ -1,0 +1,347 @@
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .navbar-brand > img {
+        width: 200px;
+    }
+    .menu li a {
+        margin-right: 10px;
+        padding-right: 10px;
+    }
+    .fast-about-content h4 span {
+        margin-right: 12px;
+    }
+    .product-free {
+        left: 40px
+    }
+    .app-img {
+        width: 55%
+    }
+	.fast-welcome-text{
+		height:auto !important;
+	}
+	.fast-welcome-text:before{
+		bottom: -10px;
+	}
+	.welcome-text-content {
+		padding-top: 240px !important;
+		padding-bottom: 210.5px !important;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-brand {
+        width: 130px;
+	}
+	.fast-navbar-area.sticky .navbar-brand{
+		width: 110px;
+	}
+	.fast-welcome-text{
+		height:460px !important;
+	}
+	.welcome-text-content {
+		height: 140px;
+		padding-top: 150px !important;
+		padding-bottom: 110px !important;
+		background-position: center -59%;
+		width: 60%;
+		margin: auto;
+	}
+	.fast-welcome-text .welcome-text{
+		font-size:35px;
+	}
+	.fast-welcome-text:before{
+		bottom: 0px;
+	}
+    .navbar-brand > img {
+        display: block;
+    }
+	.navbar .container{
+		width:100%;
+	}
+    .menu li:last-child a {
+        margin-right: 0;
+        padding-right: 0;
+    }
+    .menu li a {
+        margin-right: 10px;
+        padding-right: 10px;
+		font-size:14px;
+    }
+	.fa-pencil-square-o{
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+	}
+	.fast-social-icon{
+		top:55%;
+	}
+    h2.content-title::before {
+        display: none;
+    }
+    .product-free {
+        display: none;
+    }
+    .fast-single-product div {
+        text-align: center;
+    }
+    .fast-single-project {
+        width: 31.33%
+    }
+    .bloc {
+        font-size: 500px;
+    }
+    .single-client h2 {
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .single-client a.client-btn {
+        margin-bottom: 20px;
+    }
+    .app-img {
+        width: 60%;
+    }
+    .get-app h2.section-title {
+        margin-left: 0;
+    }
+    .fast-android-mokup .fast-section-title {
+        margin-bottom: 30px;
+    }
+    .app-button a {
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+    .fast-about-content h4 span {
+        float: left;
+    }
+    .fast-single-product::before {
+        display: none
+    }
+    .fast-single-product:hover .hover-product {
+        left: 25%;
+    }
+}
+@media only screen and (max-width: 840px) {
+	
+}
+@media only screen and (max-width: 767px) {
+    .navbar-brand > img {
+        width: 100px;
+    }
+    .welcome-text {
+        font-size: 25px;
+    }
+	.fast-slider-item {
+		height:300px;
+	}
+	.fast-slider-item img{
+		height:100%;
+	}
+    h2.content-title {
+        font-size: 50px
+    }
+    .navbar-toggle span {
+        background: #fff none repeat scroll 0 0;
+    }
+    .menu li {
+        text-align: center;
+    }
+    .menu li a {
+        margin-right: 0;
+        padding-right: 0;
+		font-size:14px;
+		line-height: 42px;
+    }
+	.fast-navbar-area .menu, .fast-navbar-area.sticky .menu{
+		padding-bottom:10px;
+	}
+	.fast-navbar-area.sticky .menu li a {
+		line-height: 42px;
+	}
+    .menu li a:before {
+        right: 30%
+    }
+    .fast-social-icon a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    h2.content-title::before {
+        display: none;
+    }
+    .fast-about-us.section-padding {
+        padding-top: 0;
+    }
+    .fast-about-content h3 {
+        font-size: 20px;
+    }
+    .fast-about-content h4 {
+        font-size: 15px;
+    }
+    .fast-about-content h4 span {
+        background: #333 none repeat scroll 0 0;
+        border-radius: 50%;
+        color: #fff;
+        display: inline-block;
+        height: 30px;
+        line-height: 30px;
+        margin-right: 5px;
+        position: relative;
+        text-align: center;
+        width: 30px;
+        float: left;
+    }
+    .fast-about-img {
+        margin-top: 30px;
+    }
+    .fast-single-product::before {
+        display: none;
+    }
+    .product-free {
+        display: none;
+    }
+    h2.section-title {
+        font-size: 40px;
+    }
+    .fast-single-product:hover .hover-product {
+        left: 20%;
+    }
+    .fast-price-content {
+        margin-top: 60px;
+    }
+    .fast-price-content h4 {
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+    .fast-single-project {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .fast-project-nav li:last-child {
+        margin-right: 0;
+    }
+    .tometo-man {
+        margin-top: 60px;
+    }
+    .bloc {
+        font-size: 350px;
+		top:50px;
+    }
+    .single-client h2 {
+        line-height: 20px;
+        font-size: 14px;
+    }
+	.single-client h4{
+		font-size: 13px;
+	}
+	.single-client-btn a.client-btn{
+		padding:5px 15px;
+		font-size: 35px;
+	}
+    .slick-next.fa.fa-angle-right.slick-arrow {
+        bottom: 1%;
+        font-size: 22px;
+        height: 30px;
+        line-height: 30px;
+        margin-top: -65px;
+        right: 40%;
+        top: auto;
+        width: 30px;
+    }
+    .slick-prev.fa.fa-angle-left.slick-arrow {
+        bottom: 1%;
+        font-size: 22px;
+        height: 30px;
+        line-height: 30px;
+        margin-top: -65px;
+        left: 40%;
+        top: auto;
+        width: 30px;
+    }
+    .single-client,.single-client-btn {
+        padding-right: 0
+    }
+    .app-img {
+        margin-top: 40px;
+        position: relative;
+    }
+    .app-button {
+        text-align: center;
+    }
+    .app-button a {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    .app-content h4 {
+        text-align: center;
+    }
+    .fast-section-title {
+        margin-bottom: 40px;
+    }
+    .container.RTC {
+        padding-bottom: 0
+    }
+    .fast-contact-form {
+        margin-bottom: 70px;
+    }
+    .contact-content > p {
+        font-size: 14px;
+    }
+    .single-client a.client-btn {
+        margin-bottom: 30px;
+    }
+    .single-client a.client-btn {
+        padding: 10px 20px
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+}
+
+@media only screen and (max-width: 479px) {
+	.fast-welcome-text{
+		height:350px !important;
+	}
+	.welcome-text-content {
+		height: 100px;
+		padding-top: 175px !important;
+		padding-bottom: 80px !important;
+		background-position: center -59%;
+		width: 100%;
+		margin: auto;
+	}
+	.fast-home-slider-area .slick-prev.fa.fa-angle-left.slick-arrow {
+		left: 25px;
+	}
+	.fast-home-slider-area .slick-next.fa.fa-angle-right.slick-arrow{
+		right: 25px;
+	}
+	.fast-home-slider-area .slick-prev.fa.fa-angle-left.slick-arrow, .fast-home-slider-area .slick-next.fa.fa-angle-right.slick-arrow{
+		top:70%;
+	}
+	.item-content{
+		top: -40px;
+	}
+	.fast-social-icon a {
+		width: 25px;
+		height: 25px;
+		line-height: 25px;
+	}
+	.welcome-text {
+		font-size: 22px;
+	}
+	.fast-about-us{
+		padding-top:25px;
+	}
+	.fast-navbar-area .menu li a {
+		line-height: 35px;
+	}
+	.navbar-nav{
+		margin:0px;
+	}
+	.single-client {
+		width:90%;
+	}
+	.bloc{
+		display:none;
+	}
+}

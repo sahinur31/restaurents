@@ -1,0 +1,446 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 300;
+	 font-family: 'Roboto', sans-serif;
+}
+html,
+body { height: 100% }
+body {
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+	line-height:30px;
+}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+/* sticky area*/
+.header-area{
+    width: 100%;
+    
+}
+.sticky-wrapper {
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+}
+.is-sticky .header-area:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: .6;
+    z-index: -1;
+}
+.logo img{
+    height: 90px;
+}
+.is-sticky .logo img {
+    width: auto;
+    height: 65px;
+    padding: 12px 0px;
+}
+.logo img,.header-area:after,.social-links,.main-menu ul.nav.navbar-nav li  a{transition: .4s;}
+.main-menu {}
+
+.is-sticky .main-menu ul.nav.navbar-nav li  a {
+    padding: 22px 15px;
+    font-size: 14px;
+}
+.is-sticky .social-links {
+    top: 19px;
+}
+/*header area*/
+.top-area{
+	position:relative;
+}
+.header-slider{
+	position:relative;
+	padding:170px 0;
+}
+.top-area-bg{
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+}
+.main-menu ul.nav.navbar-nav {
+    text-align: right;
+    float: none;
+	font-size:20px;
+}
+.main-menu ul.nav.navbar-nav li:hover  a{
+	background:none;
+}
+.is-sticky .main-menu ul.nav.navbar-nav li.active a{
+   color: #c89f2d; 
+}
+.main-menu ul.nav.navbar-nav li  a:focus{
+    background: none;
+}
+.main-menu ul.nav.navbar-nav li  a{
+	color:#fff;
+	padding:40px 15px;
+}
+.main-menu ul.nav.navbar-nav li.active:before {
+	position:absolute;
+	content:"";
+	width:100%;
+	height:3px;
+	top:0;
+	left:0;
+	background:#c3c1b9;
+}
+.main-menu ul.nav.navbar-nav li {
+    float: none;
+    display: inline-block;
+	position:relative;
+}
+/*slider area*/
+.header-text h2{
+	background:url(../img/header-bg.png) no-repeat center bottom;
+	padding-bottom:70px;
+	margin-bottom:40px;
+	font-size:60px;
+	color:#fff;
+}
+.slide-1{
+    background:url(../img/main-slider.jpg) no-repeat center center / cover;  
+}
+.slide-2{
+    background:url(../img/slide-2.jpg) no-repeat center center / cover;  
+}
+.fawesome-control{
+	position:absolute;
+	top:50%;
+	left:30px;
+	font-size:80px;
+	margin-top:-70px;
+	color:#fff;
+	opacity:.4;
+}
+.fawesome-control:hover{
+	opacity:1;
+	color:#fff;
+}
+.fawesome-control.right{
+	left:auto;
+	right:30px;
+}
+/* carousel with fade effect*/
+#welcome-carousel.carousel-fade .carousel-inner .item {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+#welcome-carousel.carousel-fade .carousel-inner .item,
+#welcome-carousel.carousel-fade .carousel-inner .active.left,
+#welcome-carousel.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+#welcome-carousel.carousel-fade .carousel-inner .active,
+#welcome-carousel.carousel-fade .carousel-inner .next.left,
+#welcome-carousel.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+#welcome-carousel.carousel-fade .carousel-inner .next,
+#welcome-carousel.carousel-fade .carousel-inner .prev,
+#welcome-carousel.carousel-fade .carousel-inner .active.left,
+#welcome-carousel.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+#welcome-carousel.carousel-fade .carousel-control {
+  z-index: 2;
+}
+html,
+body,
+#welcome-carousel.carousel,
+#welcome-carousel.carousel-inner,
+#welcome-carousel.carousel-inner .item {
+  height: 100%;
+}
+#welcome-carousel.item:nth-child(1) {
+  background: #74C390;
+}
+#welcome-carousel.item:nth-child(2) {
+  background: #51BCE8;
+}
+#welcome-carousel.item:nth-child(3) {
+  background: #E46653;
+}
+
+/* carousel with fade effect*/
+.btn-filled{
+	position:relative;
+	z-index:1;
+	display:inline-block;
+	padding:15px 45px;
+	color:#fff;
+	text-transform:uppercase;
+	font-size:16px;
+	margin:0 5px;
+}
+.btn-filled:before{
+	position:absolute;
+	content:"";
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	background:#181e20;
+	opacity:.8;
+	z-index:-1;
+}
+.btn-filled.yellow-btn:before{
+	background:#cebd7a;
+	opacity:.7;
+}
+.main-menu{
+	position:relative;
+	padding-right:60px;
+}
+.social-links{
+	position:absolute;
+	top:37px;
+	right:0;
+}
+.social-links a{
+	color: #dab33e;
+    font-size: 20px;
+    padding-left: 6px;
+}
+/*about area*/
+.section-padding{
+	padding:80px 0;
+}
+.about-area{
+	background:url(../img/review-bg.jpg) no-repeat center center / cover;
+}
+.section-title{
+	background:url(../img/divider.png) no-repeat center bottom;
+	padding-bottom:40px;
+	margin-bottom:20px;
+}
+.section-title h2{
+	font-size:35px;
+	margin-top:25px;
+}
+/*igredients-area*/
+.igredients-area{
+	background:url(../img/slider.jpg) no-repeat center center / cover;
+}
+.igredients-text{
+	position:relative;
+	z-index:1;
+	color:#fff;
+	padding:80px;
+}
+.igredients-text:after{
+	position:absolute;
+	content:"";
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	background:#0a0908;
+	opacity:.7;
+	z-index:-1;
+}
+/*reviews-area*/
+.reviews-area{
+	position:relative;
+}
+.parallax-bg{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+.review-bg{
+	background:url(../img/review.jpg) no-repeat center center / cover;
+}
+.reviews-area .section-title.white-title{
+	background:url(../img/review-divider.png) no-repeat center bottom;
+}
+.reviews-area p{
+	font-size:25px;
+}
+.comment{
+	margin-top:35px;
+	font-size:18px;
+	display:inline-block;
+}
+#reviews-carousel:before{
+	position:absolute;
+	content:"\f10d";
+	top: -16px;
+	left: -44px;
+	font-family:FontAwesome;
+	font-size: 40px;
+	color:#999b99;
+}
+/*food-menu-area*/
+.food-menu-area{
+	background:url(../img/food-bg.jpg) no-repeat center center / cover;
+}
+.food-menu-area h2.section-title{
+	color:#c89f2d;
+}
+.single-food-item h3 {
+    color: #c89f2d;
+    font-size: 21px;
+    border-bottom: 1px solid #c89f2d;
+    padding-bottom: 12px;
+    margin-bottom: 14px;
+}
+
+.single-food-item {
+    margin-bottom: 39px;
+}
+.single-food-item h3 span{
+    float:right;
+}
+.single-food-item.special {
+    position: relative;
+    border: 1px solid #c89f2d;
+    padding: 10px;
+}
+
+.single-food-item.special:before {
+    position: absolute;
+    content: "Special";
+    color: #fff;
+    background: #d3b55f;
+    font-size: 14px;
+    padding: 6px 13px;
+    right: -1px;
+    top: -42px;
+}
+/*contact-area*/
+.contact-area{
+    background: url(../img/food-bg.jpg) no-repeat center center / cover;
+}
+.contact-img img {
+    margin-left: 30px;
+    width: 242px;
+}
+.contact-text .section-title {
+    color: #cc9900;
+}
+.contact-form{
+    margin-top:40px;
+}
+.contact-form label{
+    color:#cc9900;
+}
+.contact-form input,.contact-form select{
+    width:100%;
+    padding:7px;
+    border:2px solid #cc9900;
+    margin-bottom: 25px;
+
+}
+.contact-form select{
+    padding: 13px;
+}
+.contact-form button {
+    width: 200px;
+    border: navajowhite;
+    background: #c9a131;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    padding: 13px 30px;
+    margin-top: 20px;
+}
+/**/
+.footer-area .section-title {
+    font-size: 21px;
+    background: url(../img/footer-title.png) no-repeat center bottom;
+}
+
+footer.footer-area {
+    font-size: 16px;
+    background: #191919;
+    color: #fff;
+    font-size: 13px;
+}
+.footer-links {
+    margin-top: 50px;
+}
+
+.footer-links a i.fa {
+    margin-left: 5px;
+    color: #fff;
+    font-size: 22px;
+}
+/*scroll to top start*/
+.scrollToTop {
+	margin: 0;
+	position: fixed;
+	bottom: 17px;
+	right: 25px;
+	width: 55px;
+	height: 55px;
+	z-index: 1000;
+	display: none;
+	text-decoration: none;
+	background: #F9BF3A;
+	opacity:0.9;
+	border-radius:100%;
+	transition:all 0.2s;
+}
+.scrollToTop  .scroll-fa{
+	text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+    border-radius: 0px;
+    opacity: 1;
+	padding-top:4px;
+	transition:all 0.2s;
+}
+.scrollToTop:hover{
+	opacity: 1;
+}
+.scrollToTop:hover .scroll-fa{
+	color:#000;
+}
+/*scroll to top end*/
+.sticky{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+}
